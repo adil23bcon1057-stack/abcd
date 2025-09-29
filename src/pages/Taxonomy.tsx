@@ -190,7 +190,7 @@ Focus on fish and marine species. Provide up to 5 most relevant matches. Be prec
       phylum: 'text-coral-800 bg-coral-100',
       class: 'text-ocean-800 bg-ocean-100',
       order: 'text-seaweed-800 bg-seaweed-100',
-      family: 'text-fishOrange-800 bg-fishOrange-100',
+      family: 'text-fishOrange-900 bg-fishOrange-100',
       species: 'text-ocean-800 glass-ocean'
     };
 
@@ -246,7 +246,7 @@ Focus on fish and marine species. Provide up to 5 most relevant matches. Be prec
             <div className="glass rounded-2xl p-6 glow-soft">
               <div className="flex items-center space-x-2">
                 <div className="relative flex-1">
-                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-600 w-5 h-5" />
                 <input
                   type="text"
                   placeholder="Search by species name or common name..."
@@ -335,7 +335,7 @@ Focus on fish and marine species. Provide up to 5 most relevant matches. Be prec
                         </div>
                         <div className="text-right ml-4">
                           <div className="text-lg font-semibold text-ocean-700">{result.confidence}%</div>
-                          <div className="text-xs text-gray-500">match</div>
+                          <div className="text-xs text-gray-700">match</div>
                         </div>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-1">
@@ -373,7 +373,7 @@ Focus on fish and marine species. Provide up to 5 most relevant matches. Be prec
                         </div>
                         <div className="text-right ml-4">
                           <div className="text-lg font-semibold text-ocean-700">{result.confidence}%</div>
-                          <div className="text-xs text-gray-500">match</div>
+                          <div className="text-xs text-gray-700">match</div>
                         </div>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-1">
@@ -393,8 +393,8 @@ Focus on fish and marine species. Provide up to 5 most relevant matches. Be prec
                 <div className="w-16 h-16 bg-gradient-to-br from-ocean-100 to-aqua-200 rounded-full flex items-center justify-center mx-auto mb-4 glow-soft">
                   <Fish className="w-8 h-8 text-ocean-700 animate-pulse-soft" />
                 </div>
-                <p className="text-gray-500">No species found matching "{searchTerm}"</p>
-                <p className="text-sm text-gray-400 mt-1">Try different keywords or check spelling</p>
+                <p className="text-gray-700">No species found matching "{searchTerm}"</p>
+                <p className="text-sm text-gray-600 mt-1">Try different keywords or check spelling</p>
               </div>
             )}
           </div>
