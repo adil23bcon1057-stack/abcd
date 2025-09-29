@@ -6,8 +6,8 @@ const Taxonomy = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedNodes, setExpandedNodes] = useState({});
   const [searchResults, setSearchResults] = useState([]);
-  const [isSearching, setIsSearching] = useState(false);
   const [aiSearchResults, setAiSearchResults] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
 
   const taxonomyTree = [
     {
@@ -162,12 +162,8 @@ Focus on fish and marine species. Provide up to 5 most relevant matches. Be prec
   const handleSearch = (e) => {
     const term = e.target.value;
     setSearchTerm(term);
-    if (term.length >= 2) {
-      performSearch(term);
-    } else {
-      setSearchResults([]);
-      setAiSearchResults([]);
-    }
+    setSearchResults([]);
+    setAiSearchResults([]);
   };
 
   const handleKeyPress = (e) => {
