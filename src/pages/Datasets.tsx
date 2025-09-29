@@ -95,7 +95,7 @@ const Datasets = () => {
         <div className="glass rounded-2xl p-6 mb-8 glow-soft">
           <div className="flex flex-col md:flex-row gap-4 items-center">
             <div className="relative flex-1">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-600 w-5 h-5" />
               <input
                 type="text"
                 placeholder="Search datasets..."
@@ -106,7 +106,7 @@ const Datasets = () => {
             </div>
             
             <div className="flex items-center space-x-2">
-              <Filter className="w-5 h-5 text-gray-400" />
+              <Filter className="w-5 h-5 text-gray-600" />
               <select
                 className="px-4 py-3 glass rounded-lg focus:outline-none focus:ring-2 focus:ring-ocean-500/20"
                 value={selectedType}
@@ -192,7 +192,7 @@ const Datasets = () => {
 
         {filteredDatasets.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-500 text-lg">No datasets found matching your criteria.</p>
+            <p className="text-gray-700 text-lg">No datasets found matching your criteria.</p>
           </div>
         )}
 
@@ -204,7 +204,7 @@ const Datasets = () => {
                 <h2 className="text-2xl font-semibold text-ocean-800">Dataset Details</h2>
                 <button 
                   onClick={() => setSelectedDataset(null)}
-                  className="text-gray-500 hover:text-gray-700"
+                  className="text-gray-700 hover:text-gray-900"
                 >
                   ✕
                 </button>

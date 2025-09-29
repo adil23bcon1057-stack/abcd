@@ -140,7 +140,7 @@ Date: ${new Date().toLocaleDateString()}`;
                 onChange={handleFileSelect}
                 className="hidden"
               />
-              <p className="text-sm text-gray-500 mt-2">Supports JPG, PNG, TIFF files up to 10MB</p>
+              <p className="text-sm text-gray-700 mt-2">Supports JPG, PNG, TIFF files up to 10MB</p>
             </div>
 
             {/* Uploaded Files */}
@@ -243,8 +243,8 @@ Date: ${new Date().toLocaleDateString()}`;
                       <FileImage className="w-4 h-4 text-yellow-600" />
                     </div>
                     <div>
-                      <p className="font-medium text-yellow-800">Image: {pendingAnalysis}</p>
-                      <p className="text-sm text-yellow-700">This otolith is not in our current database</p>
+                      <p className="font-medium text-yellow-900">Image: {pendingAnalysis}</p>
+                      <p className="text-sm text-yellow-900">This otolith is not in our current database</p>
                     </div>
                   </div>
                 </div>
@@ -284,7 +284,7 @@ Date: ${new Date().toLocaleDateString()}`;
                 <p className="text-sm text-gray-600">Age: {item.age}</p>
                 <div className="flex items-center justify-between mt-3">
                   <span className={`text-xs px-2 py-1 rounded-full ${
-                    item.analyzed ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'
+                    item.analyzed ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-900'
                   }`}>
                     {item.analyzed ? 'Analyzed' : 'Pending'}
                   </span>

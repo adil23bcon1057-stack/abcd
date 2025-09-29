@@ -171,6 +171,11 @@ const Home = () => {
                 <div>• Climate Change Impact</div>
                 <div>• Monsoon Dynamics</div>
               </div>
+              <div className="text-xs text-gray-700">
+                <div>• Ocean Circulation Modeling</div>
+                <div>• Climate Change Impact</div>
+                <div>• Monsoon Dynamics</div>
+              </div>
             </div>
 
             <div className="glass p-6 rounded-2xl glow-hover transition-all duration-300 text-center">
@@ -184,6 +189,11 @@ const Home = () => {
               <p className="text-sm text-gray-600 mb-1">Central Marine Fisheries Research Institute</p>
               <p className="text-xs text-aqua-600 mb-3">Marine Biology & Fisheries</p>
               <div className="text-xs text-gray-500">
+                <div>• Fish Stock Assessment</div>
+                <div>• Biodiversity Conservation</div>
+                <div>• Sustainable Fisheries</div>
+              </div>
+              <div className="text-xs text-gray-700">
                 <div>• Fish Stock Assessment</div>
                 <div>• Biodiversity Conservation</div>
                 <div>• Sustainable Fisheries</div>
@@ -205,6 +215,11 @@ const Home = () => {
                 <div>• Marine Genomics</div>
                 <div>• Coral Reef Genetics</div>
               </div>
+              <div className="text-xs text-gray-700">
+                <div>• Environmental DNA</div>
+                <div>• Marine Genomics</div>
+                <div>• Coral Reef Genetics</div>
+              </div>
             </div>
 
             <div className="glass p-6 rounded-2xl glow-hover transition-all duration-300 text-center">
@@ -218,6 +233,11 @@ const Home = () => {
               <p className="text-sm text-gray-600 mb-1">National Centre for Coastal Research</p>
               <p className="text-xs text-ocean-600 mb-3">Coastal & Marine Geology</p>
               <div className="text-xs text-gray-500">
+                <div>• Coastal Erosion Studies</div>
+                <div>• Sediment Analysis</div>
+                <div>• Sea Level Rise Research</div>
+              </div>
+              <div className="text-xs text-gray-700">
                 <div>• Coastal Erosion Studies</div>
                 <div>• Sediment Analysis</div>
                 <div>• Sea Level Rise Research</div>
